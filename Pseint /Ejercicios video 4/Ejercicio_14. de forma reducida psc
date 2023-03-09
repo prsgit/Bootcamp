@@ -1,0 +1,10 @@
+Algoritmo Ejercicio_14_de_forma_reducida
+	
+	Definir cantidad_galones Como Real;
+	
+	
+	Escribir "Introduce la cantidad de galones repostados";
+	Leer cantidad_galones;
+	
+	Escribir "El precio final es de ", cantidad_galones * 3.78541 * 1.33, " euros";
+FinAlgoritmo

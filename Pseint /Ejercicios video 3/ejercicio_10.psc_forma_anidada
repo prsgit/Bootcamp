@@ -1,0 +1,24 @@
+Algoritmo ejercicio_10_mejorado_forma_anidado
+	Definir sueldo,categoria Como Entero;
+	Escribir 'Introduce tu sueldo ';
+	Leer sueldo;
+	Escribir 'Introduce tu categoria ';
+	Leer categoria;
+	
+	Si categoria==1 Entonces
+		Escribir 'Categoria ',categoria,' Tu nuevo sueldo es de: ',sueldo*1.15,' euros';
+	SiNo
+		Si categoria==2 Entonces
+			Escribir 'Categoria ',categoria,' Tu nuevo sueldo es de: ',sueldo*1.10,' euros';
+		SiNo
+			Si categoria==3 Entonces
+				Escribir 'Categoria ',categoria,' Tu nuevo sueldo es de:',sueldo*1.06,' euros';
+			SiNo
+				Si categoria==4 Entonces
+					Escribir 'Categoria ',categoria,' Tu nuevo sueldo es de: ',sueldo*1.03,' euros';
+				FinSi
+			FinSi
+			
+		FinSi
+	FinSi
+FinAlgoritmo

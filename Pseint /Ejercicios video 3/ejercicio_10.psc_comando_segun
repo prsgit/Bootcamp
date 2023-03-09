@@ -1,0 +1,23 @@
+Algoritmo ejercicio_10_comando_segun
+	
+	Definir sueldo,categoria Como Entero;
+	
+	Escribir 'Introduce tu sueldo ';
+	Leer sueldo;
+	
+	Escribir 'Introduce tu categoria ';
+	Leer categoria;
+	
+	Segun categoria Hacer
+		1:
+			Escribir 'Categoria ',categoria,' Tu nuevo sueldo es de: ',sueldo*1.15,' euros';
+		2:
+			Escribir 'Categoria ',categoria,' Tu nuevo sueldo es de: ',sueldo*1.10,' euros';
+		3:
+			Escribir 'Categoria ',categoria,' Tu nuevo sueldo es de: ',sueldo*1.06,' euros';
+		4:
+			Escribir 'Categoria ',categoria,' Tu nuevo sueldo es de: ',sueldo*1.03,' euros';
+		De Otro Modo:
+			Escribir "Categoria no válida ";
+	Fin Segun
+FinAlgoritmo

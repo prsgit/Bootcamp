@@ -1,0 +1,16 @@
+Algoritmo ejercicio_34_A
+	
+	
+	Definir num_aleatorio , intento Como Entero;
+	
+	num_aleatorio = Aleatorio(1,10);
+	
+	
+	Repetir
+		Escribir "Introduce un número entre el 1 y el 10";
+		Leer intento;
+		
+	Mientras Que intento <> num_aleatorio;
+	
+	
+FinAlgoritmo
