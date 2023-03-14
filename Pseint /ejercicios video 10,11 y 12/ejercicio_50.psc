@@ -1,5 +1,10 @@
 Algoritmo ejercicio_50
 	
+	
+	// Hacer un algoritmo que cuente las veces que aparece una determinada letra en una frase que
+	// introduciremos por teclado.
+	
+	
 	Definir letra_constante , frase Como Caracter;
 	Definir contador , indice Como Entero;
 	

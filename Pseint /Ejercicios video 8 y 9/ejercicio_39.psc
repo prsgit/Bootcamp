@@ -1,5 +1,12 @@
 Algoritmo ejercicio_39
 	
+	
+	//Dado dos arrays del mismo tamaño, determinar, elemento a elemento, si ambos son iguales. Con
+	//que un elemento sea diferente, se considerarán los arrays como diferentes. Escribir al final del
+    //algoritmo el resultado.
+	
+	
+	
 	Definir tamano , array_1 , array_2 , indice Como Entero;
 	Definir son_iguales Como Logico;
 	

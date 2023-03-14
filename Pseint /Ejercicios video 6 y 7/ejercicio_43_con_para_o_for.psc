@@ -1,6 +1,12 @@
 Algoritmo ejercicio_43_con_para_o_for
 	
 	
+	// Partir del ejercicio 28 pero esta vez realizar un reloj digital completo que nunca pare. Tendrá la
+    //estructura horas:minutos:segundos. Ejemplo de salida: 23:15:39
+    //Nota: deberás utilizar "Esperar" y "Limpiar pantalla"
+	
+	
+	
 	Definir segs , minutos , hora  Como Entero;
 	Definir segs_cero , minutos_cero , hora_cero Como Caracter;
 	

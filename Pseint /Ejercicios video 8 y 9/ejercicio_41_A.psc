@@ -1,6 +1,12 @@
 Algoritmo ejercicio_41_A
 	
 	
+	// Dado un array de N números enteros que se generen aleatoriamente, hacer un algoritmo que:
+	// a) Obtenga cuántos números son mayores que 0.
+	
+	
+	
+	
 	Definir array , tamano , indice , contador Como Entero;
 	Escribir "Introduce el tamaño del array";
 	Leer tamano;

@@ -1,5 +1,13 @@
 Algoritmo Ejerciciio_3
 	
+	
+	//3. Ejercicio
+	
+	// a) Algoritmo que lea dos números y nos diga cuál de ellos es mayor o si son iguales (recuerda
+	// usar la estructura condicional SI).
+	// b) Ahora con 3 números diferentes y que nos diga cuál es mayor.
+	
+	
 	Definir Num1 Como Entero;
 	Definir Num2 Como Entero;
 	

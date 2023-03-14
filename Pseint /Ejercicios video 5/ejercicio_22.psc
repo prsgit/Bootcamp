@@ -1,5 +1,9 @@
 Algoritmo ejercicio_22
 	
+	// Algoritmo que visualice la cuenta de los números que son múltiplos de 2 o de 3 que hay entre 1 y
+	// 100
+	
+	
 	Definir num ,contador_mult_2 , contador_mult_3 Como Entero;
 	
 	num= 0;

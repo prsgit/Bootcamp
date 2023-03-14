@@ -1,5 +1,15 @@
 Algoritmo ejercicio_25
 	
+	// Algoritmo que lea un número entero (lado) y a partir de él cree un cuadrado de asteriscos con ese
+	// tamaño. Los asteriscos sólo se verán en el borde del cuadrado, no en el interior.
+	// Ejemplo, para lado = 4 escribiría:
+	
+	// ****
+	// * *
+	// * *
+	// ****
+	// Recuerda la estructura repetitiva Para (For
+	
 	
 	definir columnas , filas , tamaño_lado Como Entero;
 	

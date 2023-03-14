@@ -1,5 +1,10 @@
 Algoritmo ejercicio_33
 	
+	// Crear un array de tamaño 10 y que guardará números enteros introducidos por teclado.
+	// Tras introducirlos todos, imprimirá cada índice junto con el valor al que corresponda.
+	
+	
+	
 	definir my_array , tamano , indice Como Entero;
 	tamano = 10;
 	Dimension my_array[tamano];

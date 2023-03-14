@@ -1,5 +1,11 @@
 Algoritmo ejercicio_22_mejorado
 	
+	// Algoritmo que visualice la cuenta de los números que son múltiplos de 2 o de 3 que hay entre 1 y
+	// 100
+	
+	
+
+	
 	// de esta forma podemos cambiar las variables sin modicar 
 	//el código cada vez que queramos cambiar una de ellas , así
 	// podemos hacer cambios en un futuro.

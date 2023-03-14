@@ -1,5 +1,18 @@
 Algoritmo ejercicio_10_comando_segun
 	
+	
+	//Construir un diagrama de flujo que dado la categoría y sueldo de un trabajador calcule el aumento
+	//de sueldo correspondiente teniendo en cuenta la siguiente tabla. Imprimir la categoría del
+	//trabajador y su nuevo sueldo.
+	
+	//CATEGORIA     INCREMENTO
+	//Categoria 1 - 15%
+	//Categoria 2 - 10%
+	//Categoria 3 - 6%
+	//Categoria 4 - 3%
+	
+	
+	
 	Definir sueldo,categoria Como Entero;
 	
 	Escribir 'Introduce tu sueldo ';

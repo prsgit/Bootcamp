@@ -1,6 +1,10 @@
 // ejercicio 2
 
 
+//Algoritmo que lea dos números, calculando y escribiendo el valor de su suma, resta, producto y
+//división
+
+
 Algoritmo sin_titulo
 	Definir NUm1 Como Entero;
 	Definir Num2 Como Entero;

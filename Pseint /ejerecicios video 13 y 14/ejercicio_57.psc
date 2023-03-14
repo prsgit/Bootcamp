@@ -1,5 +1,11 @@
 Algoritmo ejercicio_57
 	
+// Dada un matriz cuadrada A (array de 2 dimensiones con el mismo número de columnas que de
+// filas, por ejemplo: 3) construir un algoritmo que permita determinar si dicha matriz es simétrica. Se
+// considera que una matriz es simétrica si A[i,j] = A[j,i] para todos los elementos i,j de la matriz. 
+	
+	
+	
 // en este caso el tamaño se define como único porque la matriz
 // (array) es igual de tamaño las filas que las columnas.
 	Definir matriz , i_fila , i_columna , tamano Como Entero;

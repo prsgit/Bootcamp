@@ -1,6 +1,11 @@
 Algoritmo ejercicio_41_C
 	
 	
+	// Dado un array de N números enteros que se generen aleatoriamente, hacer un algoritmo que:
+	// c) Obtenga el promedio de todos los números.
+	
+	
+	
 	Definir array , tamano , indice , contador , suma , suma_total Como Entero;
 	Definir promedio , promedio_total Como Real;
 	Escribir "Introduce el tamaño del array";

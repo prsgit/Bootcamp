@@ -1,5 +1,10 @@
 Algoritmo ejercicio_45
 	
+	
+	// Teniendo un vector con los números naturales que queramos, meter en otro de la misma longitud,
+	// aquellos que sean pares y mayores que 25.
+	
+	
 	Definir array_1 , array_2 , tamano , indice , indice_array_2 Como Entero;
 	tamano=10;
 	indice_array_2 = 0;

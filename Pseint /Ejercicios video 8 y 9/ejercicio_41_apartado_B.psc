@@ -1,5 +1,10 @@
 Algoritmo ejercicio_41_B
 	
+	
+	// Dado un array de N números enteros que se generen aleatoriamente, hacer un algoritmo que:
+	// b) Calcule el promedio de los números positivos.
+	
+	
 	Definir array , tamano , indice , contador , suma Como Entero;
 	Definir promedio Como Real;
 	Escribir "Introduce el tamaño del array";

@@ -1,3 +1,8 @@
+
+// Diseñar un algoritmo que lea el número N e imprima y cuente todos los números primos menores
+// que N.
+
+
 Funcion resultado_primo = es_primo(num)
 	
 	definir indice Como Entero;

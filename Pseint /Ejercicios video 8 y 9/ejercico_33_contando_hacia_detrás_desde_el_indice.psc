@@ -1,5 +1,9 @@
 Algoritmo ejercico_33_contando_hacia_detrás_desde_el_array
 	
+	
+	// // Crear un array de tamaño 10 y que guardará números enteros introducidos por teclado.
+	// Tras introducirlos todos, imprimirá cada índice junto con el valor al que corresponda.
+	
 	definir my_array , tamano , indice Como Entero;
 	tamano = 5;
 	Dimension my_array[tamano];

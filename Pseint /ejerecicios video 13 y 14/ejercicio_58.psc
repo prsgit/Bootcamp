@@ -1,5 +1,10 @@
 Algoritmo ejercicio_58
 	
+	
+	// Crear un array de 3 páginas, 4 filas y 5 columnas donde el primer elemento valga 1, el segundo 2,
+	// el tercero 3 y así sucesivamente, e imprimirla.
+	
+	
 	definir array , tamano_pag ,tamano_fila , tamano_columna , i_pag , i_fila , i_columna , contador Como Entero;
 	tamano_pag = 3;
 	tamano_fila = 4;

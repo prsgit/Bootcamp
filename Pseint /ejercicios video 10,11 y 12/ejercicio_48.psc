@@ -1,5 +1,11 @@
 Algoritmo ejercicio_48
 	
+	// Almacenar una lista de nombres en un array y luego ordenarlos alfabéticamente. Para la entrada de
+	// datos se utiliza una estructura Mientras, sin saber a priori la cantidad de datos que se ingresarán.
+	// Pista: Los datos alfanuméricos (strings) también se pueden comparar con los operadores < y >.
+	
+	
+	
 	// i = indice1 , j = indice2
 	Definir  i , j , contador , tamano Como Entero;
 	Definir array_nombre , array_lista_de_nombres , aux Como caracter;

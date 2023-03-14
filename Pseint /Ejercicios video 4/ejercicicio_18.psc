@@ -1,5 +1,11 @@
 Algoritmo ejercicicio_18
 	
+	// Se pide representar un algoritmo que nos calcule la suma de los N primeros números naturales. N
+	// se leerá por teclado (no tenemos por qué llamar a la variable N, podemos llamarla como
+	// queramos).
+	
+	
+	
 	Definir contador , N , numero_inicial , suma Como Entero;
 	
 	Escribir "Escribir la cantidad de numeros pares a procesar";

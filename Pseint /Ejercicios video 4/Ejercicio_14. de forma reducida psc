@@ -1,5 +1,14 @@
 Algoritmo Ejercicio_14_de_forma_reducida
 	
+	//Construir un diagrama de flujo que resuelva el problema que tienen unos surtidores de gasolina,
+	//que registran lo que surten en galones, pero el precio de la gasolina se fija en litros. El diagrama de
+	//flujo debe calcular e imprimir el precio que hay que cobrarle al cliente.
+	
+	//Precio gasolina = 1.333?/litro
+	//1 galón = 3,78541 litros
+	
+	
+
 	Definir cantidad_galones Como Real;
 	
 	
