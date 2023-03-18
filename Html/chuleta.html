@@ -172,6 +172,117 @@ section>article>h1{Título}+p{Contenido} -->
     <li>Biceps y triceps</li>
 </ol>
 
+<br><hr><br>
+
+<!-- Tablas / Tables -->
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Edad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Juan</td>
+            <td>juan@gmail.com</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>María</td>
+            <td>maria@gmail.com</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Antonio</td>
+            <td>antonio@gmail.com</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Pablo</td>
+            <td></td>
+            <td>32</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Edad</th>
+        </tr>
+    </tfoot>
+</table>
+
+<br><hr><br>
+
+<!-- Formularios / Forms -->
+
+<form action="#" method="get">
+    
+    <div class="inputBlock">
+        <label for="nameinput">Nombre: (*)</label> <br>
+        <input required type="text" id="nameinput" name ="username" placeholder="Introduzca su nombre">
+    </div><br>
+    
+    <div class="inputBlock">
+        <label for="lastnameinput">Apellidos:</label> <br>
+        <input required type="text" id="lastnameinput" name ="lastname" placeholder="Introduzca sus apellidos">
+    </div><br>
+
+    <div class="inputBlock">
+        <label for="emailInput">Email: (*)</label> <br>
+        <input required type="email" id="emailInput" name ="userEmail" placeholder="Introduzca su email">
+    </div><br>
+
+    <div class="inputBlock">
+        <label for="passwordInput">Contraseña: (*)</label> <br>
+        <input required type="password" id="passwordInput" name ="passwordInput" placeholder="Introduzca su contraseña">
+    </div><br>
+
+    <div class="inputBlock">
+        <label for="messageInput">Mensaje:</label> <br>
+        <textarea name="messageInput id="messageInput" cols="30" rows="10" placeholder="Escriba aquí"></textarea>
+    </div><br>
+
+
+    <div class="imputBlock">
+        
+        <label for="sex">Género:</label> <br>
+        <select name="sexinput" id="sexinput">
+            <option value=""hidden></option>
+            <option value="male">Másculino</option>
+            <option value="female">Femenino</option>
+            <option value="Other">No especificado</option>    
+        </select>
+    
+    </div>
+    <br><br>
+   
+    <label for="Age">Edad:</label><br>
+    <input id="ageinput" name="ageinput" placeholder="18" type="number" min="18" max="120">
+
+    <!-- placeholder para que no te lo puedan modificar -->
+    
+    <input type="date">
+
+    <br> <br>
+    
+    <input type="submit" valeu="Guardar">
+
+
+</form>
+<!-- placeholder se utiliza para dar info dentro de id=nameinput -->
+
+
+
+
+
+
+
+
+
 
 
     
