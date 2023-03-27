@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+
+    <form action="#" method="get">
+        
+        <fieldset>
+            
+            <legend>Información personal</legend>
+            
+            <div class="InputBlock">
+                
+                <label for="Nameinput">Nombre: (*)</label>
+                <input required type="text" id="Nameinput" name="name" placeholder="Elon">
+                
+                <label for="lastnameinput">Apellido: (*)</label>
+                <input required type="text" id="lastnameinput" name="lastnameinput" placeholder="Musk">
+            
+            </div><br>
+
+            <div class="InputBlock">
+                
+                <label for="Age">Edad:</label>
+                <input type="number" id="Ageinput" name="Ageinput" placeholder="18"  min="18" max="120">
+                
+            
+            </div><br>
+
+            <div class="Inputblock">
+
+                <label for="emailinput">Email: (*)</label>
+                <input required type="email" id="emailinput" name="Email" placeholder="nombre@email.com">
+
+            </div><br>
+
+            <div class="InputBlock">
+                
+                <label for="passwordInput">Password: (*)</label>
+                <input required type="password" id="passwordInput" name="Password" placeholder="*******">
+
+            </div><br>
+
+            <fieldset>
+
+                <legend>Género</legend>
+                
+                <div>
+                
+                    <input type="radio" name="Género" id="Hombreinput">
+                    <label for="Hombreinput">Hombre</label>
+            
+                </div>
+    
+                <div>
+                
+                    <input type="radio" name="Género" id="Mujerinput">
+                    <label for="Mujerinput">Mujer</label>
+            
+                </div>
+    
+                <div>
+                
+                    <input type="radio" name="Género" id="Otroinput">
+                    <label for="Otrodinput">Otro</label>
+            
+                </div><br>
+
+            </fieldset><br>
+
+            <div class="InputBlock">
+
+                <label for="Paísinput">País:</label>
+                <input required type="text" id="Paísinput" name="País" placeholder="Introduzca su País">
+            
+
+            </div><br>
+
+            <div class="imputBlock">
+        
+                <label for="Lenguaje">Lenguaje de programación:</label>
+                
+                <select name="Lenguajeinput" id="Lenguajeinput">
+                    
+                    <option value="javascript">Javascript</option>
+                    <option value="Python">Python</option>
+                    <option value="Php">Php</option>    
+                
+                </select>
+            
+            </div><br>
+
+            <fieldset disabled>
+
+                <legend>Selecciona tu academia de programación favorita:</legend>
+                
+                <div>
+                
+                    <input type="radio" name="academia" id="academiainput" checked>
+                    <label for="academiainput">Code Space Academy.</label>
+            
+                </div>
+    
+                <div>
+                
+                    <input type="radio" name="academia" id="academiainput">
+                    <label for="academiainput">Future Pro</label>
+            
+                </div>
+    
+                <div>
+                
+                    <input type="radio" name="academia" id="academiainput">
+                    <label for="academiadinput">Level up</label>
+            
+                </div>
+                
+                
+            </fieldset><br>
+
+        </fieldset><br>
+
+        <div>
+            
+            <input type="checkbox" name="Términos" id="Términos">
+            <label for="Términos">Acepto recibir miles de correos irrelevantes.</label><br>
+
+            <input type="checkbox" name="Términos" id="Términos">
+            <label for="Términos">Acepto los términos y condiciones.</label>
+
+
+        </div><br>
+
+
+        <input type="submit" valeu="Enviar">
+        <input type="reset" valeu="Vaciar formulario">
+
+    
+    </form>
+
+    
+
+    
+</body>
+</html>
