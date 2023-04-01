@@ -1,0 +1,62 @@
+/* Ejmplo de diseño para imagen */
+
+#primero{
+    height: 50vh;
+
+    /*Imagen de fondo*/
+    background-image: url(./ejercicios/img.ejercicios/beach.jpeg);
+
+    /*eje x: left center right // eje y: top center bottom*/
+    background-position: center bottom;
+
+    /* Cuando la imagen es más pequeña que el contenedor*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    /*Margenes / Margin*/
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin: 20px; /*esta es la forma usual*/
+
+    /*Bordes / Border/*
+    /* border-bottom: seagreen;
+    border-top: yellow;
+    border-width: 10px;
+    border-style: solid; */
+
+    /* se suele poner así */
+
+    border: 10px solid black;
+
+    /* Padding , hace modificaciones del contenido (empuja hacia dentro)*/
+    /* padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px; */
+
+    /* forma corta para el padding */
+    padding: 100px 50px 25px 12.5px ; /*va en el sentido de las agujas del reloj */
+
+    /* nos mueve lo que hay dentro del borde , hace cambios internos */
+    /* crea aire dentro de... aunque lo tengamos vacio */
+
+
+
+
+
+}
+
+
+.empty {
+    height: 2000px;
+    background-color: red;
+}
+
+h1 {
+    color: gray;
+}
+
+
+    
