@@ -1,0 +1,21 @@
+ul{
+    padding: 0px;
+    width: 30%;
+}
+
+ul>li {
+    color: #333;
+    background-color: #ddd;
+    padding: 4px;
+
+    
+    list-style-position: inside;
+    list-style-image: url(../imagenes/fast-forward..png);
+    cursor: pointer;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+ul>li:hover{
+    color: blue;
+    background-color: rgb(202, 200, 200);
+}
