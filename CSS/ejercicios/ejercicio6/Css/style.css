@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #00008b;
+    display: block; /*para que nos haga cada enlace en una linea nueva*/
+    padding: 20px;
+    text-align: center;
+}
+
+a:last-child{
+    display: none;/*sólo se mostrará en versión escritorio Información desktop*/
+}
+
+a:hover{
+    background-color: rgb(19, 19, 71);
+}
+
+@media only screen and (min-width: 768px) { /*ponemos min cuando es para móvil*/
+    a{
+        float: left;
+        width: 25%; /* ponemos 25% por que el ancho sería el 100% y como son 4 elementos lo dividimos*/
+    }
+}
+
+@media only screen and (min-width: 1000px){ /*ponemos min cuando es para móvil*/
+    a{
+        width: 20%; /* ponemos 20% por que el ancho sería el 100% y como son 5 elementos lo dividimos*/
+    }
+
+    a:last-child{
+        display: block; /* ponemos esto para que aparezca Información desktop*/
+    }
+}

@@ -1,0 +1,101 @@
+body{
+    color:#fff;
+    background:#f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container{ /*para mover el titulo mi web*/
+    padding: 1px 10%;
+}
+
+.brand-banner{
+    background-color: coral;
+}
+
+.navbar{
+    background-color: #333;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    padding-right: 15px;
+}
+
+.img-header{
+    background-image: url(../imagenes/cabecera.jpg);
+    text-align: center;
+    background-position: center right;
+    margin-bottom: 30px; /*es para darle margen por arriba a las columnas de debajo*/
+}
+
+.img-header h1{
+    font-size: 3em;
+    line-height: 1.6em;
+    margin: 30px;
+}
+
+.welcome{
+    overflow: hidden;
+}
+
+.main-section{
+    width: 70%;
+    float: left;
+    color: #333;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.main-section h1{
+    margin-top: 0; /* es para alinear las dos columnas*/
+}
+
+aside{
+    width: 20%;
+    float: right;
+    background-color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer.container{
+    background-color: #333;
+    padding:10px;
+    text-align: center;
+}
+
+/*Mediaqueries*/
+
+@media only screen and (max-width:768px){
+    .main-section, aside{
+        float:none;
+        width: 100%;
+    }
+
+    .welcome{
+        margin-bottom: 30px;
+    }
+}
+
+.img-header h1{
+    font-size: 2em;
+    line-height: 1.3em;
+    margin: 20px 5px;
+}
+
+/*.navbar li{
+    display: block;
+}/*
+

@@ -42,12 +42,7 @@
     /* nos mueve lo que hay dentro del borde , hace cambios internos */
     /* crea aire dentro de... aunque lo tengamos vacio */
 
-
-
-
-
 }
-
 
 .empty {
     height: 2000px;
@@ -58,5 +53,23 @@ h1 {
     color: gray;
 }
 
+/*Media queires*/
 
+.responsive{
+    height: 100px;
+    background-color: aquamarine;
+    width: 30%;
+}
+/*Tablet*/
+@media only screen and (max-with:920px){
+    .responsive{
+        width: 50%;
+    }
+}
+/*Mobile*/
+@media only screen and (max-with:700px){
+    .responsive{
+        width: 100%;
+    }
+}
     
