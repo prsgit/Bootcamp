@@ -1,0 +1,115 @@
+/* Iconos / Icons */
+
+.menu-icon{
+    color: blue;
+}
+
+.apple{
+    color: grey;
+}
+
+/*Degradados o gradientes de color*/
+
+[class^="gradient"] {
+    height: 500px;
+    margin-bottom: 10px;
+    
+}
+
+.gradient1{
+    background: linear-gradient(to right, darkblue, white);
+}
+
+.gradient2{
+    background: linear-gradient(to bottom, white, coral 20%, white);
+}
+
+.gradient3{
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,1)), url(imagenes/pexels-designecologist-1779487.jpg);
+}
+
+.gradient4{
+    background: radial-gradient(white, blue, red);
+    width: 50%;
+    box-shadow: 50px 25px 15px black;
+            /*offset-x / offset-y / radio-desenfoque / color*/
+            /*horizontal / vertical*/   
+}
+
+/* Transformaciones */
+
+.transform{
+    height: 100px;
+    width: 100px;
+    background-color: #333;
+
+    transform: translate(300px, -20px) rotate(45deg) scale(1.5) skew(25deg); 
+    /*cuando lo ponmeos en negativo lo mueve hacia arriba en el eje y*/
+
+}
+
+/*Transiciones*/
+
+.transitions{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    background-color: rgb(244, 178, 11);
+    color: black;
+    cursor: pointer;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*transition-property: transform; /* es para activarlo con el nombre que le hayamos dado*/
+    /*transition-duration: 0.5s;*/
+    /*transition-delay: 1s; /* es una transición entre los dos estados*/
+    /*transition-timing-function: ease-in-out;*/
+
+    /* este sería el short hand de lo anterior */
+    transition: transform 0.5s ease-in-out;
+    
+
+}
+
+.transitions:hover{
+    transform: scale(1.3) rotate(3deg);
+}
+
+/* Animaciones */
+
+.text-animations{
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;      
+    }
+
+    50%{
+        color: red;
+    }
+
+    to{
+        margin-left: 0%;
+    }
+}
+
+/*@keyframes slidein{
+    from{
+        margin-left: 100%;      es para que vaya de derecha a izquierda y de izquierda a derecha todo el rato
+    }
+
+    50%{
+        margin-left: 0%;
+    }
+
+    to{
+        margin-left: 100%;
+    }
+}*/
