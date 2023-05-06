@@ -39,23 +39,23 @@
 // variable = !(1 == 1);
 // console.log("j) tipo:", typeof variable,"valor:", variable);
 
-// let totalBet = prompt("please enter your bet");
-// // console.log(totalBet);
+let totalBet = prompt("please enter your bet");
+// console.log(totalBet);
 
-// if (totalBet == 5000) {
-//     alert("All In !!");
-// }else if(totalBet < 5000){
-//     alert("Passing This Round !!");
-// } else{
-//     alert("Wrong bet, try again!!");
-//     while(totalBet > 5000){
+if (totalBet == 5000) {
+    alert("All In !!");
+}else if(totalBet < 5000){
+    alert("Passing This Round !!");
+} else{
+    alert("Wrong bet, try again!!");
+    while(totalBet > 5000){
     
-//         totalBet = prompt("please enter your bet");
-//     if (totalBet > 5000){
-//         alert("Wrong bet, try again!!");
-//     }
-//     }      
-// }
+        totalBet = prompt("please enter your bet");
+    if (totalBet > 5000){
+        alert("Wrong bet, try again!!");
+    }
+    }      
+}
 
 // Break and continue
 
@@ -79,12 +79,12 @@
 
 // Para sacar los nº pares del 1 al 100 con continue.
 
-let counter = 1;
-while (counter++ <= 100 ) { 
-    if (counter % 2 != 0 ) {  // si el nº no da de resto 0 osea no es par , continue.
-        continue;   // lo que haya después no se ejecutara pero sigue iterando el bucle.
-    }
-    console.log(counter);
-}
+// let counter = 1;
+// while (counter++ <= 100 ) { 
+//     if (counter % 2 != 0 ) {  // si el nº no da de resto 0 osea no es par , continue.
+//         continue;   // lo que haya después no se ejecutara pero sigue iterando el bucle.
+//     }
+//     console.log(counter);
+// }
 
 
