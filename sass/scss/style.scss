@@ -1,0 +1,51 @@
+@import"./reset";
+@import"./variables";
+@import"./maps";
+@import"./functions";
+
+@mixin flexCenter($justify){
+    // solo podemos poner css code
+    // se puede reutilizar 
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+
+body{
+    @include flexCenter(end);
+    background-color: $green;
+    width: $full-width;
+    //height:$full-height;
+    color: $dark;
+    .main{ // esto es para el div.
+        width: 80%;
+        //margin: 2em auto;
+        border: 1px solid $dark;
+        border-radius: .3rem;
+        
+        &-header{ // concatenamos main con main-header
+            // pertenece al h1
+            font-size: map-get($font-sizes,xxx-large);
+            font-family: font-family(Titillium);
+            transition: color .3s ease-in-out ;
+            font-weight: titillium-weight("Black");
+            &:hover{
+                color:$orange;
+            }
+            
+            
+        }
+        p{
+            font-family: font-family(Rubik);
+            color: $fantasy;
+            font-weight: bold;
+            font-size: 1.5rem;
+            
+            @for $i from 1 through length($rainbow) {
+                &:nth-child(#{$i+1}) {
+                    background-color: nth($rainbow, $i);
+                }
+            }
+        }
+    }
+}

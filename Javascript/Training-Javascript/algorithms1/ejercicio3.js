@@ -5,34 +5,37 @@
 
 
 
-let temperature = prompt("Enter the outside temperature, please");
+// let temperature = prompt("Enter the outside temperature, please");
 
-if (temperature < 15) {
-    alert("Warm up !!")
-}else if(temperature == 15 || temperature <=25){
-    alert("Enjoy the weather !!")
-}else if(isNaN(temperature)){
-    alert("It's not a real number !!"); //isnan sirve para que no se cuele 
-}                                    //nada que no sea un numero en este caso.
-else if (temperature > 25){
-    alert("Cool down !!")
-}
-
-//opción mas completa
-
-// let temperature;
-// do {
-//     temperature = prompt("Enter the outside temperature, please").trim();
-//     if (temperature == "" || isNaN(temperature)) {   //isnan sirve para que no se cuele 
-//         console.log("It's not a real number !!");   //nada que no sea un numero en este caso
-//     }
-    
-// } while (temperature == "" || isNaN(parseInt(temperature)));
 // if (temperature < 15) {
 //     alert("Warm up !!")
 // }else if(temperature == 15 || temperature <=25){
 //     alert("Enjoy the weather !!")
-// }else{
-//     (temperature > 25)
+// }else if(isNaN(temperature)){
+//     alert("It's not a real number !!"); //isnan sirve para que no se cuele 
+// }                                    //nada que no sea un numero en este caso.
+// else if (temperature > 25){
 //     alert("Cool down !!")
 // }
+
+//opción mas completa
+
+let temperature;
+do {
+    temperature = prompt("Enter the outside temperature, please").trim();
+    if (temperature == "" || isNaN(temperature)) {   //isnan sirve para que no se cuele 
+        console.log("It's not a real number !!");   //nada que no sea un numero en este caso
+    }
+    
+} while (temperature == "" || isNaN(parseInt(temperature)));
+if (temperature < 15) {
+    alert("Warm up !!")
+}else if(temperature == 15 || temperature <=25){
+    alert("Enjoy the weather !!")
+}else{
+    (temperature > 25)
+    alert("Cool down !!")
+}
+
+
+

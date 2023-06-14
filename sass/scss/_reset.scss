@@ -1,0 +1,11 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: inherit;
+    outline: 0 none;
+}
+
+// para resetear los estilos del navegador
