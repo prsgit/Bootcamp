@@ -1,0 +1,16 @@
+@mixin flexCenter($justify){
+    // solo podemos poner css code
+    // se puede reutilizar 
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+
+@mixin theme($light-theme: true) {
+    @if($light-theme) {
+        background-color: lighten($bg-color , 50%);
+        p{
+            color: darken($bg-color , 25%) !important;
+        }
+    }
+}

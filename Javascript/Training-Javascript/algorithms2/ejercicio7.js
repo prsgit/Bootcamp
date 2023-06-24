@@ -5,13 +5,25 @@
 // no ha conseguido acertar, mostramos el mensaje: “Sorry, Good luck in love”.
 
 
-const exercise7 = () => {
 
-    let min = 0;
-    let max = 10;
-    let player = Math.floor(Math.random() * (max - min + 1)) + min;
-    console.log(player);
-    
+
+const exercise7 = () => {
+    let toGuess = numberGenerator(10, 0);
+    console.log(toGuess);
+    let attemps = 3;
+    let userWon = false;
+    console.log("Let's play!");
+    let userNumber = prompt("Try to guess a number between 0 and 10");
+    while (--attemps >= 0 && !userWon) {
+        if (toGuess == +userNumber) {
+            alert("You win!");
+            userWon = true;
+        } else if (attemps > 0) {
+            userNumber = prompt(`Try it again, you have ${attemps} more attemps`);
+        }
+    }
+    if (!userWon) {
+        alert("Sorry, Good luck in love");
+    }
 }
 exercise7();
-    

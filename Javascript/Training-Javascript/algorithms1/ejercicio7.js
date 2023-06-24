@@ -9,7 +9,7 @@
 //** Buscar el valor al cambio en Google**
 
 let amount = 100;
-let divisa = "yen";
+let divisa = "libra";
 
 switch (divisa){
     case "dollar":

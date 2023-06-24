@@ -92,19 +92,19 @@
 
 // Ejemplos
 
-let students = [
-    "A",
-    "B",
-    "C",
-    "D",
-    "E",
-    "F",
-]
+// let students = [
+//     "A",
+//     "B",
+//     "C",
+//     "D",
+//     "E",
+//     "F",
+// ]
 
-function sayHello (name) {
-    // declaración de una función
-    console.log(`Hello ${name}`);
-}
+// function sayHello (name) {
+//     // declaración de una función
+//     console.log(`Hello ${name}`);
+// }
 // Bucles para arrays
 
 //While loop
@@ -136,20 +136,23 @@ function sayHello (name) {
 
     //forof loop
 
-    for (const name of students) {
-        sayHello(name)
-    }
+    // for (const name of students) {
+    //     sayHello(name)
+    // }
 
-    // Bucle para objetos
+    // // Bucle para objetos
 
-    let students2 = {
-        Rueda: "Pedro",
-        Ruíz: "Alberto",
-        Gomez: "Juan",
-        Salas: "Silvia",
-        García: "Luis",
-    }
+    // let students2 = {
+    //     Rueda: "Pedro",
+    //     Ruíz: "Alberto",
+    //     Gomez: "Juan",
+    //     Salas: "Silvia",
+    //     García: "Luis",
+    // }
 
-    for (const key in students2) {
-       sayHello(students2[key])
-    }
+    // for (const key in students2) {
+    //    sayHello(students2[key])
+    // }
+
+    
+ 

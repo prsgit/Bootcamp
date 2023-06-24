@@ -2,16 +2,25 @@
 @import"./variables";
 @import"./maps";
 @import"./functions";
+@import"./mixins";
 
-@mixin flexCenter($justify){
-    // solo podemos poner css code
-    // se puede reutilizar 
-    display: flex;
-    justify-content: $justify;
-    align-items: center;
+// while loop
+$headers:"";
+$start:1;
+$limit:6;
+
+@while $start <= $limit{
+    $headers: $headers + h#{$start} + ", ";
+    $start: $start + 1;
+}
+#{$headers}{
+    font-family: font-family(Titillium);
 }
 
 body{
+    &.light{
+        @include theme(true);
+    } // include es para llamar a un mixin
     @include flexCenter(end);
     background-color: $green;
     width: $full-width;
@@ -42,9 +51,35 @@ body{
             font-size: 1.5rem;
             
             @for $i from 1 through length($rainbow) {
-                &:nth-child(#{$i+1}) {
+                &:nth-child(#{$i}) {
                     background-color: nth($rainbow, $i);
                 }
+            }
+            // @for $i from -(length($rainbow)) through -1 {
+            //     &:nth-child(#{-$i}) {
+            //         background-color: nth($rainbow, $i);
+            //     }
+            // } // para invertir el orden.
+        }
+        .message{ //para los dos divs.
+            padding: .8em 1.5em;
+            border-radius: .7rem;
+            width: 70%;
+            margin: 1em auto;
+        }
+        .message-info{
+            @extend .message; // se incluye lo que contiene message sin escribirlo.
+            color: darken($blue , 25%); // darken oscurece la letra %
+            background-color: lighten($blue , 10%);
+        }
+        .message-danger{
+            @extend .message;
+            color: darken($red , 25%);
+            background-color: lighten($red , 10%);
+        }
+        @each $header , $value in $header-sizes {
+            #{$header}{
+                font-size: #{$value};
             }
         }
     }

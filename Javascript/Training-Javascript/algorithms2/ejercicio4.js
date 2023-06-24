@@ -14,3 +14,8 @@ const sum = function (day1,day2,day3,day4,day5,day6,day7) {  // se pone "const" 
 }
 
 console.log(sum(day1,day2,day3,day4,day5,day6,day7)/7);
+
+
+
+
+

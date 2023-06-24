@@ -7,7 +7,6 @@
 const exercise3 = () => {
     let result = "";
     let rows = 4;
-    
     let columns = 4;
     
     for (let index = 0; index < rows; index++) {
@@ -22,5 +21,5 @@ const exercise3 = () => {
 };
 exercise3();
 
-  
+
 
